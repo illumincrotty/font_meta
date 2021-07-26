@@ -1,4 +1,8 @@
 # Font Meta
+
+A modern library for reading , writing, processing, and exploring fonts in a node or browser environment.
+
+---
 <!-- PROJECT LOGO -->
 <img src="https://i.imgur.com/2WZa8q7.png" alt="logo" width="200"/>
 
@@ -7,14 +11,14 @@
 <!-- TODO -->
 ![npm](https://img.shields.io/npm/l/font_meta.svg)
 ![size-badge](https://img.badgesize.io/https:/unpkg.com/font_meta/dist/index.modern.js?compression=brotli)
-![dependency-count-badge](https://badgen.net/bundlephobia/dependency-count/font_meta)
+<!-- ![dependency-count-badge](https://badgen.net/bundlephobia/dependency-count/font_meta) -->
 ![Types](https://badgen.net/npm/types/font_meta)
 
 </div>
 
 ---
 
-A modern library for read, writing, processing, and exploring fonts in a node or browser environment.
+
 
 ## 📝 Table of Contents
 
