@@ -1,7 +1,7 @@
 {
 	"name": "font_meta",
 	"version": "0.0.1-alpha.0",
-	"description": "",
+	"description": "A modern library for reading , writing, processing, and exploring fonts in a node or browser environment.",
 	"source": "./src/index.ts",
 	"exports": "./dist/index.modern.js",
 	"main": "./dist/index.js",
@@ -32,12 +32,20 @@
 		"url": "https://github.com/illumincrotty/paclage_name/issues"
 	},
 	"homepage": "https://github.com/illumincrotty/font_meta#readme",
-	"keywords": [],
+	"keywords": [
+		"font",
+		"parse",
+		"metadata",
+		"opentype",
+		"otf",
+		"ttf",
+		"typeface"
+	],
 	"devDependencies": {
 		"@istanbuljs/nyc-config-typescript": "^1.0.1",
-		"@types/node": "^16.4.1",
-		"@typescript-eslint/eslint-plugin": "^4.28.4",
-		"@typescript-eslint/parser": "^4.28.4",
+		"@types/node": "^16.4.4",
+		"@typescript-eslint/eslint-plugin": "^4.28.5",
+		"@typescript-eslint/parser": "^4.28.5",
 		"ava": "^3.15.0",
 		"eslint": "^7.31.0",
 		"eslint-config-prettier": "^8.3.0",
@@ -63,5 +71,8 @@
 			"ts-node/register",
 			"tsconfig-paths/register"
 		]
+	},
+	"dependencies": {
+		"binary-parser": "^1.9.2"
 	}
 }

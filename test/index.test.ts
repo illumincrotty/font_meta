@@ -1,5 +1,5 @@
+import { sanityTest } from '../src/example';
 import test from 'ava';
-import { fiveFunction, identity } from '../src/index';
 
 const one = 1,
 	two = 2,
@@ -9,10 +9,8 @@ test('passing test', (t) => {
 	t.pass();
 });
 
-// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-const valueExample = one ? true : false;
 test('should know truth values', (t) => {
-	t.true(valueExample);
+	t.true(true);
 });
 
 test('should know 1 == 1', (t) => {
@@ -22,13 +20,13 @@ test('should know 1 == 1', (t) => {
 
 test('should work with named imports', (t) => {
 	const test = { property: 7 };
-	t.deepEqual(identity(test)(), test);
+	t.deepEqual(sanityTest.identity(test)(), test);
 	t.is(one, one);
 	t.is(two, two);
 });
 
 test('can achieve full coverage', (t) => {
-	t.is(fiveFunction(), five);
+	t.is(sanityTest.fiveFunction(), five);
 });
 
 test('can dynamically import fs', async (t) => {

@@ -144,10 +144,17 @@
 		//"prefer-spread":"off", // require spread operators instead of `.apply()`
 		"prefer-template": "error", //🔧 require template literals instead of string concatenation
 		//"rest-spread-spacing":"off", //🔧 enforce spacing between rest and spread operators and their expressions
-		"sort-imports": [
-			"error",
-			{ "memberSyntaxSortOrder": ["none", "all", "single", "multiple"] }
-		], //🔧 enforce sorted import declarations within modules
+		// "sort-imports": [
+		// 	"error",
+		// 	{
+		// 		"memberSyntaxSortOrder": [
+		// 			"none",
+		// 			"all",
+		// 			"single",
+		// 			"multiple"
+		// 		]
+		// 	}
+		// ], //🔧 enforce sorted import declarations within modules
 		//"symbol-description":"off", // require symbol descriptions
 		//"template-curly-spacing":"off", //🔧 require or disallow spacing around embedded expressions of template strings
 		//"yield-star-spacing":"off", //🔧 require or disallow spacing around the `*` in `yield*` expressions
@@ -200,7 +207,7 @@
 		// "multiline-ternary": "warn", //🔧 enforce newlines between operands of ternary expressions
 		"new-cap": "error", // require constructor names to begin with a capital letter
 		"new-parens": "error", //🔧 enforce or disallow parentheses when invoking a constructor with no arguments
-		//"newline-per-chained-call":"off", //🔧 require a newline after each call in a method chain
+		// "newline-per-chained-call": "off", //🔧 require a newline after each call in a method chain
 		//"no-array-constructor":"off", // disallow `Array` constructors
 		//"no-bitwise":"off", // disallow bitwise operators
 		//"no-continue":"off", // disallow `continue` statements
@@ -339,7 +346,7 @@
 		//"@typescript-eslint/no-var-requires":"off", //✅ Disallows the use of require statements except in import statements
 		//"@typescript-eslint/prefer-as-const":"off", //✅🔧 Prefer usage of as const over literal type
 		//"@typescript-eslint/prefer-namespace-keyword":"off", //✅🔧 Require the use of the namespace keyword instead of the module keyword to declare custom TypeScript modules
-		//"@typescript-eslint/prefer-regexp-exec":"off", //✅🔧🤖 Enforce that RegExp#exec is used instead of String#match if no global flag is provided
+		"@typescript-eslint/prefer-regexp-exec": "off", //✅🔧🤖 Enforce that RegExp#exec is used instead of String#match if no global flag is provided
 		//"@typescript-eslint/restrict-plus-operands":"off", //✅🤖 When adding two variables, operands must both be of type number or of type string
 		//"@typescript-eslint/restrict-template-expressions":"off", //✅🤖 Enforce template literal expressions to be of string type
 		//"@typescript-eslint/triple-slash-reference":"off", //✅ Sets preference level for triple slash directives versus ES6-style import declarations
