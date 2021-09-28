@@ -3,22 +3,20 @@
 A modern library for reading , writing, processing, and exploring fonts in a node or browser environment.
 
 ---
+
 <!-- PROJECT LOGO -->
 <img src="https://i.imgur.com/2WZa8q7.png" alt="logo" width="200"/>
 
-
 <!-- Shields -->
-<!-- TODO -->
-![npm](https://img.shields.io/npm/l/font_meta.svg)
+
+![npm](https://img.shields.io/npm/l/font_meta)
 ![size-badge](https://img.badgesize.io/https:/unpkg.com/font_meta/dist/index.modern.js?compression=brotli)
-<!-- ![dependency-count-badge](https://badgen.net/bundlephobia/dependency-count/font_meta) -->
-![Types](https://badgen.net/npm/types/font_meta)
+![Types](https://badgen.net/npm/types/squeaker)
+[![codecov](https://codecov.io/gh/illumincrotty/squeaker/branch/main/graph/badge.svg?token=W17SYOVM6T)](https://codecov.io/gh/illumincrotty/font_meta)
 
 </div>
 
 ---
-
-
 
 ## 📝 Table of Contents
 
@@ -81,7 +79,6 @@ If you want type support with skypack, follow the directions [here]('https://doc
 
 And use it like you would any other package from UNPKG
 
-
 ## 🔧 Running the tests
 
 The basic set of tests are in the test script, the coverage script, and the report script. Just run those using your perferred package manager (npm, yarn, pnpm, etc.) to make sure nothing has broken.
@@ -89,16 +86,20 @@ The basic set of tests are in the test script, the coverage script, and the repo
 ## 🎈 Usage
 
 Here's the great part: thanks to [microbundle](https://github.com/developit/microbundle), this package supports CJS, UMD, and ESM formats.
-That means that wherever and however you use this package — in browser or node, with import or require — you *should* be set, no configuration required.
+That means that wherever and however you use this package — in browser or node, with import or require — you _should_ be set, no configuration required.
+
 <!-- TODO -->
 
 ## Example
+
 <!-- TODO -->
+
 ```code
 put content here
 ```
 
 <!-- LICENSE -->
+
 ## 📃 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -110,7 +111,9 @@ Find me [@illumincrotty](https://github.com/illumincrotty) on github or [@illumi
 ## 🔨 Similar Tools
 
 None of these tools fit my needs but they might fit yours! Try one of these:
+
 <!-- TODO -->
-- [OpenType.js]("https://github.com/opentypejs/opentype.js")
-- [Samsa]("https://github.com/Lorp/samsa")
-- [Typr.js]("https://github.com/photopea/Typr.js?utm_source=codropscollective")
+
+-   [OpenType.js]("https://github.com/opentypejs/opentype.js")
+-   [Samsa]("https://github.com/Lorp/samsa")
+-   [Typr.js]("https://github.com/photopea/Typr.js?utm_source=codropscollective")

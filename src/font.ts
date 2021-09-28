@@ -13,9 +13,15 @@ export const ttcTag = [
 export class Font {
 	head: number;
 
-	buffer: Buffer | undefined;
+	buffer: Uint8Array;
 
-	constructor(head: number, _buffer?: Buffer) {
+	/**
+	 * Creates an instance of Font.
+	 *
+	 * @param head - the header signature
+	 * @param _buffer - filler
+	 */
+	constructor(head: number, _buffer: Uint8Array) {
 		this.head = head;
 		this.buffer = _buffer;
 	}

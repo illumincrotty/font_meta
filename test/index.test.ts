@@ -19,8 +19,8 @@ test('should know 1 == 1', (t) => {
 });
 
 test('should work with named imports', (t) => {
-	const test = { property: 7 };
-	t.deepEqual(sanityTest.identity(test)(), test);
+	const check = { property: 7 };
+	t.deepEqual(sanityTest.identity(check)(), check);
 	t.is(one, one);
 	t.is(two, two);
 });

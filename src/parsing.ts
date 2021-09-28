@@ -66,7 +66,10 @@ class FIXED {
 	}
 }
 
-const fixed = Parser.start().create(FIXED).int16('top').int16('bottom');
+const fixed = Parser.start()
+	.create(FIXED)
+	.int16('top')
+	.int16('bottom');
 const out = fixed.parse(Buffer.from([0x7f, 0xff, 0x00, 0x01])) as {
 	value: number;
 };
@@ -78,7 +81,9 @@ const test = Parser.start()
 void (async () => {
 	// const offsetNull = 0;
 	// const int32Size = 4;
-	const otf = await promises.readFile('./assets/fonts/Compagnon-Bold.otf');
+	const otf = await promises.readFile(
+		'./assets/fonts/Compagnon-Bold.otf'
+	);
 	const version = test.parse(otf) as Record<'sfnt', string>;
 	console.log(version);
 })();

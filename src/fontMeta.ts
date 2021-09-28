@@ -6,8 +6,11 @@ import { promises } from 'node:fs';
 import { Font, fontSfntVersions, ttcTag } from './font';
 
 /**
+ * Loads a font
+ *
  * @param path - path to a font file
- * @returns Promise of a font*/
+ * @returns Promise of a font
+ */
 export const load = async (path: string): Promise<Font> => {
 	const buffer = await promises.readFile(path);
 	const signature = (
